@@ -5,11 +5,13 @@
 
   @mixin atLarge {
     margin-bottom: 0;
-    padding: 0 1.8125rem 1px 1.81245rem;
+    padding: 0 1.8125rem 1px 1.8125rem;
   }
-&--last {
+
+  &--last {
     margin-bottom: 0;
-}
+  }
+
   &__photo {
     border-radius: 80px;
     overflow: hidden;
@@ -22,19 +24,18 @@
   }
 
   &__title {
-      color: $mainBlue;
-      text-align: center;
-      font-size: 1.5rem;
-      font-weight: 500;
-      margin: 0;
+    color: $mainBlue;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0;
   }
 
   &__subtitle {
-      color: $mainOrange;
-      text-align: center;
-      font-weight: 400;
-      font-size: 0.9375rem;
-      margin: .25rem 0 1rem 0;
-    
+    color: $mainOrange;
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.9375rem;
+    margin: .25rem 0 1rem 0;
   }
 }
